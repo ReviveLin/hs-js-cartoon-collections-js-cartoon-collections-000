@@ -7,6 +7,8 @@ describe("dwarfRollCall", function() {
       });
 });
 
+
+
 describe("summonCaptainPlanet", function() {
   it("returns an array with the same number of elements that it was given", function() {
         var veggies = ["carrot", "cucumber", "pepper"];
@@ -22,6 +24,9 @@ describe("summonCaptainPlanet", function() {
   });
 });
 
+
+
+
 describe("longPlaneteerCalls", function() {
       it("returns true if any calls are longer than 4 characters", function() {
         var longCalls = ["earth", "wind", "fire", "water", "heart"];
@@ -34,6 +39,11 @@ describe("longPlaneteerCalls", function() {
       });
 });
 
+
+
+
+//checks each individual string/element in array, if longer than 4 characters, return true, else return false.
+
 describe("findTheCheese", function() {
       it("returns the first element of the array that is cheese", function() {
         var cheddarCheese = ["banana", "cheddar", "sock"];
@@ -45,3 +55,7 @@ describe("findTheCheese", function() {
         expect(findTheCheese(noCheeseArray)).toEqual("no cheese!");
       });
 });
+
+
+
+/*The "findTheCheese" function should accept an array of strings. It should then look through these strings and return the first string that is a type of cheese. The types of cheese that appear are  cheddar, gouda, and camembert.*/
